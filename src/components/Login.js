@@ -1,11 +1,11 @@
 import React from 'react';
 import {
-  Checkbox,
-  Grid,
-  TextField,
-  FormControlLabel,
-  Paper,
-  Button
+    Checkbox,
+    Grid,
+    TextField,
+    FormControlLabel,
+    Paper,
+    Button
 } from '@mui/material';
 
 const Login = () => {
@@ -24,10 +24,16 @@ const Login = () => {
                 alignItems={'center'}
                 >
                 <Grid item xs={12}>
-                    <TextField label="Mail / Username"></TextField>
+                    <TextField
+                        label="Mail / Username"
+                        type={'email'}
+                    ></TextField>
                 </Grid>
                 <Grid item xs={12}>
-                    <TextField label="Password"></TextField>
+                    <TextField
+                        label="Password"
+                        type={'password'}
+                    ></TextField>
                 </Grid>
                 <Grid  item xs={12}>
                     <FormControlLabel
